@@ -174,7 +174,7 @@
     }
 
     /* Viền đen bên ngoài cùng + bóng đổ */
-    .sticker-title::before {
+    .sticker-title span::before {
       content: attr(data-text);
       white-space: pre;
       position: absolute;
@@ -189,7 +189,7 @@
     }
 
     /* Viền trắng ở giữa */
-    .sticker-title::after {
+    .sticker-title span::after {
       content: attr(data-text);
       white-space: pre;
       position: absolute;
@@ -547,8 +547,8 @@
                 </div>
               </div>
               <div class="welcome__col-text">
-                <h1 class="sticker-title" data-text="Đạt 7.0 hiệu quả&#10;cùng đội ngũ giáo viên">
-                  <span style="white-space: pre;">Đạt 7.0 hiệu quả&#10;cùng đội ngũ giáo viên</span>
+                <h1 class="welcome__h1 sticker-title">
+                  <span style="white-space: pre;" data-text="Đạt 7.0 hiệu quả&#10;cùng đội ngũ giáo viên">Đạt 7.0 hiệu quả&#10;cùng đội ngũ giáo viên</span>
                 </h1>
                 <div class="welcome__h2-box-wrap">
                   <div class="welcome__h2-box">
