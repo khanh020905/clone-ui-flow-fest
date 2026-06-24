@@ -211,6 +211,27 @@
       -webkit-text-stroke: 3px #ffffff;
     }
 
+    @media screen and (max-width: 767px) {
+      .sun-chat-combo {
+        transform: scale(1.5) !important;
+        transform-origin: center center !important;
+      }
+      .sticker-title {
+        font-size: clamp(26px, 8vw, 42px) !important;
+        line-height: 1.15 !important;
+      }
+      .sticker-title span::before {
+        -webkit-text-stroke: 10px #171717 !important;
+        text-shadow: 0 6px 0 rgba(35, 35, 35, 0.18) !important;
+      }
+      .sticker-title span::after {
+        -webkit-text-stroke: 7px #ffffff !important;
+      }
+      .sticker-title span {
+        -webkit-text-stroke: 1.5px #ffffff !important;
+      }
+    }
+
     :root,
     body {
       -webkit-text-size-adjust: 100%;
